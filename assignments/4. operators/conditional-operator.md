@@ -9,22 +9,65 @@
     * [ ] Mul
     * [ ] Div
 
+//
+var value1 = Number(prompt("Enter first number"));
+var value2 = Number(prompt("Enter second number"));
+alert("You need to type the operation: add or mul or sub or div");
+var operation = prompt("Enter operation");
+if(operation=="add"){
+    alert(value1+value2);
+}
+else if(operation=="mul"){
+    alert(value1*value2);
+}
+else if(operation=="sub"){
+    if(value1<value2){ alert("First number must be greater");
+    }
+    else alert(value1-value2);
+}
+else if(operation=="div") {
+    if(value1<value2){ alert("First number must be greater");
+                     }
+    else alert(value1/value2);
+}
+//
+
 2. 🎖Write a if else statement which checks if the status is single `console.log` the message `John is single` or else `John is married`
 ```js
 var firstName = 'John';
 var status = 'single';
 // Your code goes here
+var firstName = 'John';
+var status = 'single';
+if (status == 'single')
+   console.log("John is signle");
+else
+    console.log("John is married");
 ```
 
 3. 🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
 ```js
 // your code goes here
+var a = prompt("Enter the first number");
+var b = prompt("Enter the second number");
+if(a>b) 
+alert (a+ " is the larger number");
+else 
+alert(b+ " is the larger number");
 ```
 
 4. 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 
 ```js
 // Your code goes here
+var a = Number(prompt("Enter the first number"));
+var b = Number(prompt("Enter the second number"));
+var c = Number(prompt("Enter the third number"));
+var mul = (a*b*c);
+if(mul>=0)
+alert("+");
+else
+alert("-");
 ```
 
 ## Switch Statement

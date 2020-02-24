@@ -5,7 +5,7 @@ typeof 4;      - "number"
 typeof NaN;    - "number"
 typeof false;  - "boolean"
 typeof function () {}; "function"
-var phone = 8983700; undefined
+var phone = 8983700; "undefined"
 typeof phone;   "number"
 typeof null;    "object"
 ```

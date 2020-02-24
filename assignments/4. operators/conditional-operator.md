@@ -137,7 +137,7 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 // Your code goes here
 
 let marks = +prompt("Enter your marks");
-switch(marks) {
+switch(true) {
     case(marks<=30):
     alert("FF");
     break;

@@ -2,78 +2,80 @@
 
 Write the output (true / false) next to the comparision done below.
 ```js
-"hello world" === "hello world"; // Output
+"hello world" === "hello world"; // Output true
 
-"hello world" == "hello world";
+"hello world" == "hello world"; // Output true
 
-true === true;
+true === true;  // Output true
 
-77 == "77";
+77 == "77";     // Output true
 
-77 === "77";
+77 === "77";    //Output false
 
-"cat" === "dog";
+"cat" === "dog"; //Output false
+ 
+false === 0;    //Output false
 
-false === 0;
+false == 0;     // Output true
 
-false == 0;
+0 == "";        // Output true
 
-0 == "";
+"" == false;    // Output true
 
-"" == false;
+null == null;   // Output true
 
-null == null;
+undefined == undefined;     // Output true
 
-undefined == undefined;
+null == undefined;     // Output true
 
-null == undefined;
+null == 0       //Output false
 
-null == 0
+null == 21      //Output false
 
-null == 21
+null == "null"  //Output false
 
-null == "null"
+undefined == "undefined"    //Output false
 
-undefined == "undefined"
+undefined == 0  //Output false
 
-undefined == 0
+undefined == false  //Output false
 
-undefined == false
+undefined == "false"    //Output false
 
-undefined == "false"
+NaN == null;    //Output false
 
-NaN == null;
+NaN == "NaN"    //Output false
 
-NaN == "NaN"
+NaN == 0        //Output false
 
-NaN == 0
+NaN == false    //Output false
 
-NaN == false
+NaN == undefined;   //Output false
 
-NaN == undefined;
+NaN == NaN;     //Output false
 
-NaN == NaN;
+2 > 1       // Output true
 
-2 > 1
+2 != 1      // Output true
 
-2 != 1
+'Z' > 'A'   // Output true
 
-'Z' > 'A'
+"Hello World" > "Super Mario"   //Output false
 
-"Hello World" > "Super Mario"
+"Hello World" != "Super Mario"  // Output true
 
-"Hello World" != "Super Mario"
+NaN !== NaN     // Output true
 
-NaN !== NaN
+NaN != NaN      // Output true
 
-NaN != NaN
+NaN != undefined       // Output true
 
-NaN != undefined
+undefined != null       //Output false
 
-undefined != null
+undefined != "Hello"    // Output true
 
-undefined != "Hello"
 
-undefined != "undefined"
+undefined != "undefined"    // Output true
+
 
 ```
